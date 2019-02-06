@@ -1,0 +1,15 @@
+<!doctype html>
+html(lang="en", data-ng-app="KT-APP")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width")
+        base(href="/")
+        title Test Application
+        style(type="text/css").
+            !{splashCss}
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Roboto:400,700,400italic")
+    body
+        .application-splash
+            .application-splash-label Инициализация...
+        application-component
+        script(src=applicationScriptSrc)

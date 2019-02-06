@@ -1,0 +1,85 @@
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    overflow-y: visible;
+}
+
+md-content {
+    overflow: hidden;
+}
+
+card-form-component {
+    width: 50%;
+}
+
+@media (max-width: 1279px) {
+    card-form-component {
+        width: 75%;
+    }
+}
+
+@media (max-width: 959px) {
+    card-form-component {
+        width: 100%;
+    }
+}
+
+catalog-component md-card {
+    width: calc(25% - 16px);
+    overflow: hidden;
+}
+
+@media (max-width: 1279px) {
+    catalog-component md-card {
+        width: calc(33.333333% - 16px);
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 959px) {
+    catalog-component md-card {
+        width: calc(50% - 16px);
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 559px) {
+    catalog-component md-card {
+        width: calc(100% - 16px);
+        overflow: hidden;
+    }
+}
+
+md-toolbar {
+    position: sticky;
+    top: 0;
+}
+
+page-main-component {
+    display: block;
+}
+
+.card-image-wrapper {
+    height: 300px;
+}
+
+.card-image-wrapper img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+md-select .md-select-value.md-select-placeholder,
+md-select .md-select-icon,
+md-select .md-text {
+    color: white!important;
+}
+
+md-select .md-select-value {
+    border-bottom-color: white!important;
+}
